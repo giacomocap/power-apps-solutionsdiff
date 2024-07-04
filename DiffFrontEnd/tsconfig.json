@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "esnext",
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "sourceMap": true,
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "incremental": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

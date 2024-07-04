@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="root"></div>
+
+
+<% for (var chunk in htmlWebpackPlugin.files.js) { %>
+    <script src="<%= '~'+htmlWebpackPlugin.files.js[chunk].substring(50).replace('DiffToolFramework','')%>"></script>
+<% } %>
+
